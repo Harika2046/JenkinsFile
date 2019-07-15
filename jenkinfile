@@ -1,0 +1,21 @@
+pipeline {
+  agent any
+  stages {
+    stage('Something Fishy') { 
+      steps {
+        echo 'Hello World'
+      }
+    }
+    stage('Something Prawny') { 
+      steps {
+	  	echo 'Hello Harish'      
+		}
+	    }
+		stage('Something Chickeny') { 
+      steps {
+	  	echo 'Hello Agent Harish'      
+		}
+	    }
+      }
+    }
+  
